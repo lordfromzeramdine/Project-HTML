@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk Fan Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Elon Musk Fan Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to the fan page dedicated to Elon Musk, a visionary entrepreneur and innovator.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Elon Musk is the CEO of SpaceX and Tesla, Inc. He is known for his ambitious projects in space travel, electric vehicles, and sustainable energy.</p>
+            <img src="elon_musk.jpg" alt="Elon Musk" width="300">
+        </section>
+
+        <section id="work">
+            <h2>Work</h2>
+            <p>Elon Musk has been involved in numerous groundbreaking projects:</p>
+            <ul>
+                <li>SpaceX: Revolutionizing space travel with reusable rockets.</li>
+                <li>Tesla: Leading the electric vehicle market.</li>
+                <li>Neuralink: Developing brain-machine interfaces.</li>
+                <li>The Boring Company: Innovating tunneling and infrastructure.</li>
+            </ul>
+            <img src="spacex.jpg" alt="SpaceX Rocket" width="300">
+            <img src="tesla.jpg" alt="Tesla Car" width="300">
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Position</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SpaceX</td>
+                        <td>CEO</td>
+                        <td>2002-Present</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>CEO</td>
+                        <td>2008-Present</td>
+                    </tr>
+                    <tr>
+                        <td>Neuralink</td>
+                        <td>Founder</td>
+                        <td>2016-Present</td>
+                    </tr>
+                    <tr>
+                        <td>The Boring Company</td>
+                        <td>Founder</td>
+                        <td>2016-Present</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="media">
+            <h2>Media</h2>
+            <video width="320" height="240" controls>
+                <source src="elon_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="elon_audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Elon Musk Fan Page</p>
+    </footer>
+
+</body>
+</html>
